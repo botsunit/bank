@@ -1,0 +1,26 @@
+{application, bank, [
+	{description, "Erlang/Elixir module to manipulate bank data"}
+	, {vsn, "0.1.1"}
+	, {modules, []}
+	, {registered, []}
+	, {applications, [kernel
+                  , stdlib]}
+  , {env, []}
+
+  , {maintainers, ["Gregoire Lejeune"]}
+  , {licenses, ["BSD-3"]}
+  , {links, [{"Github", "https://github.com/botsunit/bank"}]}
+  , {files, ["src/*"
+             , "include/*"
+             , "lib/*"
+             , "Makefile"
+             , "bu.mk"
+             , "README.md"
+             , "rebar.config"
+             , "rebar.lock"
+             , "mix.exs"
+             , "mix.lock"]}
+  , {build_tools, ["rebar3", "mix", "make"]}
+]}.
+
+
