@@ -1,6 +1,6 @@
 {application, bank, [
 	{description, "Erlang/Elixir module to manipulate bank data"}
-	, {vsn, "0.1.0"}
+	, {vsn, "0.1.1"}
 	, {modules, []}
 	, {registered, []}
 	, {applications, [kernel
