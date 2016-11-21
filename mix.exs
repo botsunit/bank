@@ -22,7 +22,7 @@ defmodule Bank.Mixfile do
 
   defp deps do
     [
-      {:bucs, "~> 1.0.0"}    
+      {:bucs, "~> 1.0.1"}    
     ]
   end
 
